@@ -50,7 +50,7 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
-      <footer>Feito com ❤ por Zulmiro</footer>
+      <footer>Feito por Zulmiro da Silva Souza <a href="https://api.whatsapp.com/send/?phone=5573998466613&text&type=phone_number&app_absent=0"><string style={{color: "#51bd9a"}}>Contato</string></a></footer>
       {movieList.length <= 0 && (
         <div className="loading">
           <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif" />
